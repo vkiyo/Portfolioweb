@@ -1,39 +1,54 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Contact</title>
+    <title>Contact - Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Christian Jay Vence</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <h1>Christian Jay Vence</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="project.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>Contact Me</h2>
-        <p>If you’d like to get in touch, feel free to reach out via email at: <a href="mailto:vkiyoshi27@gmail.com">vkiyoshi27@gmail.com</a></p>
-        <!-- Optional: Simple contact form (does not submit without JavaScript or server-side handling) -->
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br>
-            <input type="submit" value="Send">
-        </form>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>Contact Me</h2>
+                <p>If you’d like to get in touch, feel free to reach out via email at: 
+                    <a href="mailto:vkiyoshi27@gmail.com">vkiyoshi27@gmail.com</a>
+                </p>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
     </main>
-    <footer>
+
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Vence, Christian Jay B.</p>
     </footer>
 </body>

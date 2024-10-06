@@ -3,26 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to CSS file -->
-    <title>Porfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home - Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Christian Jay Vence</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <h1>Christian Jay Vence</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="project.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>Welcome to My Portfolio</h2>
-        <p> Hello! I'm Christian, a passionate developer.</p>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Hello! I'm Christian, a passionate developer.</p>
+                <p>
+                    I am currently studying web development and working on various projects to enhance my skills. 
+                    This portfolio showcases my work and the technologies I use. 
+                    Feel free to explore my projects and get to know me better!
+                </p>
+            </div>
+        </div>
     </main>
-    <footer>
+
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Vence, Christian Jay B.</p>
     </footer>
 </body>

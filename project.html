@@ -3,36 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Projects</title>
+    <title>Projects - Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Christian Jay Vence</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <h1>Christian Jay Vence</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="project.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>My Projects</h2>
-        <ul>
-            <li>
-                <h3>Portfolio Card</h3>
-                <p>My profile card project is a personal website featuring 
-                    a visually appealing layout that prominently displays my 
-                    profile picture, name, and social media links. The design 
-                    is clean and minimalist, ensuring that visitors can 
-                    easily connect with me. </p>
-                <a href="https://github.com/vkiyo/Profile-Card">View Project</a> 
-        </ul>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>My Projects</h2>
+                <ul>
+                    <li>
+                        <h3>Profile Card</h3>
+                        <p>
+                            My profile card project is a personal website featuring a visually appealing layout that 
+                            prominently displays my profile picture, name, and social media links. The design is clean 
+                            and minimalist, ensuring that visitors can easily connect with me.
+                        </p>
+                        <a href="https://github.com/vkiyo/Profile-Card" class="btn btn-primary">View Project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; Vence, Christian Jay B.</p>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Vence, Christian Jay B.</p>
     </footer>
 </body>
 </html>
